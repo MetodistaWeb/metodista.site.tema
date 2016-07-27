@@ -43,13 +43,13 @@ Completo.
 Colegios
 ^^^^^^^^
 
-A fazer.
+Completo.
 
 
 Rudge Ramos Online
 ^^^^^^^^^^^^^^^^^^
 
-A fazer.
+Completo.
 
 
 Instalação
