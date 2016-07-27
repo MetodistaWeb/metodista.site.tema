@@ -16,15 +16,13 @@ class InstallTestCase(unittest.TestCase):
     def test_temas_disponiveis(self):
         themes = getAvailableThemes()
         # Nosso tema + os dois do Plone
-        self.assertEqual(len(themes), 3)
+        self.assertEqual(len(themes), 22)
 
     def test_tema_disponivel(self):
-        theme = getTheme('Tema')
+        theme = getTheme('TemaRROnline')
         self.assertTrue(theme is not None)
         self.assertEqual(theme.__name__, 'tema')
-        self.assertEqual(theme.title, 'Tema')
-        self.assertEqual(theme.description,
-                         'Tema para portal')
-        self.assertEqual(theme.rules, '/++theme++tema/rules.xml')
-        self.assertEqual(theme.absolutePrefix, '/++theme++tema')
+        self.assertEqual(theme.title, 'Tema RROnline')
+        self.assertEqual(theme.rules, '/++theme++temarronline/rules.xml')
+        self.assertEqual(theme.absolutePrefix, '/++theme++temarronline')
         self.assertEqual(theme.doctype, '<!DOCTYPE html>')
