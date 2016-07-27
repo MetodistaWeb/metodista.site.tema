@@ -21,7 +21,7 @@ class InstallTestCase(unittest.TestCase):
     def test_tema_disponivel(self):
         theme = getTheme('TemaRROnline')
         self.assertTrue(theme is not None)
-        self.assertEqual(theme.__name__, 'tema')
+        self.assertEqual(theme.__name__, 'TemaRROnline')
         self.assertEqual(theme.title, 'Tema RROnline')
         self.assertEqual(theme.rules, '/++theme++temarronline/rules.xml')
         self.assertEqual(theme.absolutePrefix, '/++theme++temarronline')
