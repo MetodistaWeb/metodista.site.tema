@@ -1,4 +1,4 @@
-$(window).load(function(){     
+$(window).load(function(){
        if ($('.wrapper').width() <= 750 ){
               $('.portlet-static-menu-do-curso').contents().appendTo('#viewlet-above-content');
        }
@@ -9,5 +9,4 @@ jQuery("body.section-pedagogia #logo img, body.section-museu #logo img, body.sec
     $(this).addClass('logosecao');
     $(this).after('<a class=logolinksecao href="' + urlbase + '"></a>' );
 })
-       
-}); 
+});

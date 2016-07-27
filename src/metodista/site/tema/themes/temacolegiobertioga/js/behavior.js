@@ -1,7 +1,5 @@
 $(window).load(function() {
-
     if ($('.wrapper').width() >= 760) {
-
         var menu = $("#main-navigation");
         var lis = menu[0].getElementsByTagName('li');
         for (var i = 0, li; li = lis[i]; i++) {
@@ -55,8 +53,5 @@ $(window).load(function() {
         var len = $('#navigation > li a').length;
 
         jQuery("logo a").attr("tabindex", len + 1);
-
     }
-  
 });
-

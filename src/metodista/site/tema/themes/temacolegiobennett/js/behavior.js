@@ -55,8 +55,5 @@ $(window).load(function() {
         var len = $('#navigation > li a').length;
 
         jQuery("logo a").attr("tabindex", len + 1);
-
     }
-  
 });
-
