@@ -23,6 +23,6 @@ class InstallTestCase(unittest.TestCase):
         self.assertTrue(theme is not None)
         self.assertEqual(theme.__name__, 'TemaRROnline')
         self.assertEqual(theme.title, 'Tema RROnline')
-        self.assertEqual(theme.rules, '/++theme++temarronline/rules.xml')
-        self.assertEqual(theme.absolutePrefix, '/++theme++temarronline')
+        self.assertEqual(theme.rules, '/++theme++TemaRROnline/rules.xml')
+        self.assertEqual(theme.absolutePrefix, '/++theme++TemaRROnline')
         self.assertEqual(theme.doctype, '<!DOCTYPE html>')
