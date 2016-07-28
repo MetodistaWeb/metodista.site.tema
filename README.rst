@@ -10,6 +10,20 @@ Introdução
 
 Produto de temas DIAZO para portais da Metodista de Educação Superior, Intranet, noticiosos e colégios.
 
+Estado do pacote
+----------------
+
+O produto **metodista.site.tema** possui testes automatizados e cobertura de testes pelos serviços Travis e CoverAlls.
+
+Segue abaixo imagens com estado atual do branch master dos testes e cobertura deste produto:
+
+.. image:: https://travis-ci.org/MetodistaWeb/metodista.site.tema.svg?branch=master
+   :target: https://travis-ci.org/MetodistaWeb/metodista.site.tema
+
+.. image:: https://coveralls.io/repos/github/MetodistaWeb/metodista.site.tema/badge.svg
+   :target: https://coveralls.io/github/MetodistaWeb/metodista.site.tema
+
+    
 Temas
 -----------------
 
