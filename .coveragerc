@@ -6,5 +6,9 @@ omit =
     buildout-cache/eggs/*
     eggs/*
     parts/*
-    src/metodista.site/*
-    src/metodista/site/*
+    src/metodista.site.educacaosuperior/*
+    src/metodista/site/educacaosuperior*
+    src/metodista.site.colegios/*
+    src/metodista/site/colegios*
+    src/metodista.site.portlets/*
+    src/metodista/site/portlets*
