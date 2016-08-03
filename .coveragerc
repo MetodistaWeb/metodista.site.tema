@@ -6,6 +6,7 @@ omit =
     buildout-cache/eggs/*
     eggs/*
     parts/*
+    /home/travis/virtualenv/*
     src/metodista.site.educacaosuperior/*
     src/metodista/site/educacaosuperior*
     src/metodista.site.colegios/*
